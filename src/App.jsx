@@ -12,7 +12,7 @@ function App() {
     <TermsOfUseContext.Provider value={{ termsOfUse, setTermsOfUse }}>
       <BrowserRouter>
         <Routes>
-          <Route path="/signin" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
