@@ -110,7 +110,7 @@ const SignUp = () => {
             <div className="button-container">
               <p className='terms-link' href="#">Ao criar sua conta, você concorda com nossos <a href="#" onClick={() => setTermsOfUse(!termsOfUse)} className="highlight">Termos de uso</a> e <a href="#" className="highlight">Política de Privacidade</a></p>
               <Button text={'CRIAR CONTA'} handleSubmit={handleSubmit} />
-              <a className='sign-up-link' href="/signin"><p>Já tem uma conta? Entrar</p></a>
+              <a className='sign-up-link' href="/"><p>Já tem uma conta? Entrar</p></a>
             </div>
           </fieldset>
         </form>
