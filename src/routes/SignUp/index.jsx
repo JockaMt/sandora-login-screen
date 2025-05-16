@@ -3,7 +3,7 @@ import "../Login/login.css";
 import logo from '../../assets/logo-sandora.png';
 import Button from "../../components/Button";
 import TermsOfUsePopUp from "../../components/Terms";
-import { TermsOfUseContext } from "../../components/contexts/termsOfUseContext";
+import { TermsOfUseContext } from "../../contexts/termsOfUseContext";
 
 const SignUp = () => {
   const [form, setForm] = useState({ name: "", enterprise: "", email: "", password: "", confirm: "" });

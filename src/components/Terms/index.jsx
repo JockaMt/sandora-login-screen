@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import './termsOfUse.css';
 import { RiCloseLine } from "react-icons/ri";
-import { TermsOfUseContext } from "../contexts/termsOfUseContext";
+import { TermsOfUseContext } from "../../contexts/termsOfUseContext";
 
 const TermsOfUsePopUp = ({show = false}) => {
     const { termsOfUse, setTermsOfUse } = useContext(TermsOfUseContext);
