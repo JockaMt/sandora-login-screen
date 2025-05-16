@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Login Sandora",
+  "name": "A sandora login page",
+  "description": "A sandora login page",
+  "lang": "pt-BR",
   "icons": [
     {
       "src": "favicon.ico",

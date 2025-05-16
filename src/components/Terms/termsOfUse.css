@@ -1,0 +1,37 @@
+.terms {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.247);
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.show {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.close-buttom {
+    cursor: pointer;
+}
+
+.terms-container {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.terms-container p {
+    text-align: justify;
+    
+}
